@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    
+}
+#nav > i{
+    font-size: 20px;
+    font-weight: 600;
+}
+#navright{
+    
+    margin-right: 5px;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    
+
+}
+#navright a{
+    text-decoration: none;
+    font-weight: 600;
+}
+#navright a:hover{
+    text-decoration: underline;
+}
+
+#navright i{
+    color: blue;
+    padding-left: 50px;
+    font-weight: 500;
+    font-size: 20px;
+}
+#left {
+    position: relative;
+  height: 100%;
+  width: 40%;
+  background-color: whitesmoke;
+}
+#right {
+  height: 100%;
+  width: 60%;
+  background-color: sandybrown;
+}
+#centreText{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+#centreText h1{
+    padding-bottom:20px ;
+    font-size: 60px;
+
+}
+#centreText p{
+    font-size: 19px;
+    line-height: 35px;
+    padding-bottom:25px ;
+    opacity: .6;
+
+}
+#centreText a{
+    text-decoration: none;
+    font-weight: 600;
+    opacity: .6;
+    color: black;
+}
+#rtop{
+    height: 60%;
+    width: 100%;
+    background-color: royalblue;
+    display: flex;
+}
+#rbottom{
+    height: 40%;
+    width: 100%;
+    background-color: navajowhite;
+    background-image: url(https://images.unsplash.com/photo-1620117353219-57754c786aa2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: 50% 45%;
+    background-size: cover;
+    
+   
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+
+#rtopleft{
+    height: 100%;
+    width: 50%;
+    background-color: beige;
+    background-image: url(https://i.pinimg.com/564x/e7/24/0d/e7240d3824dddce69c59de6c2cfe0bd2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#rtopright{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    background-image: url(https://i.pinimg.com/564x/f9/e1/2f/f9e12f67885985aedc45c09e717b0b72.jpg);
+    background-size: cover;
+    background-position: 50% 65%;
+}
+
